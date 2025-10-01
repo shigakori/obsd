@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"be477d5cef18124c","type":"file","file":"obsd/Excalidraw/golang.md","x":-864,"y":-240,"width":400,"height":392},
-		{"id":"b0c004d63c7536de","type":"text","text":"my abstract","x":-357,"y":-242,"width":141,"height":50}
+		{"id":"b0c004d63c7536de","type":"text","text":"my abstract","x":-375,"y":-242,"width":159,"height":50}
 	],
 	"edges":[
 		{"id":"2179bfeebb20ee9b","fromNode":"be477d5cef18124c","fromSide":"right","toNode":"b0c004d63c7536de","toSide":"left"}
