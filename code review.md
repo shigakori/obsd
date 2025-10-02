@@ -49,8 +49,52 @@ lol
 after
 ```
 
-game:
+# game
 
-[[golang]]
+``` go
+package main
+
+import (
+	"fmt"
+	"math/rand"
+	"time"
+)
+
+func main() {
+	score := 0
+
+	fmt.Println(`ready`)
+	fmt.Println(`score:`, score)
+	fmt.Println(``)
+
+	for {
+		fmt.Println(score, `lvl`)
+		fmt.Println(``)
+		fmt.Println(`go`)
+		fmt.Println(`---`)
+
+		fmt.Println(`in proccess`)
+		fmt.Println(``)
+		fmt.Println(`---`)
+
+		if rand.Intn(20) == 1 {
+			fmt.Println(score, `failed`)
+			fmt.Println(``)
+			fmt.Println(`---`)
+			break
+		}
+
+		fmt.Println(score, `passed`)
+		fmt.Println(`---`)
+		score++
+
+		time.Sleep(100 * time.Millisecond)
+	}
+
+	fmt.Println(`Game over`)
+	fmt.Println(`Your score:`, score)
+}
+
+```
 
 ---
