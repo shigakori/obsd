@@ -1,4 +1,9 @@
-`	fmt.Println(`'fore`)
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println(`'fore`)
 
 	for i := 1; i <= 4; i++ {
 		fmt.Println(`hi`, i)
@@ -12,4 +17,7 @@
 		fmt.Println(``)
 	}
 
-	fmt.Println(`after`)`
+	fmt.Println(`after`)
+}
+
+not bad aint it?
