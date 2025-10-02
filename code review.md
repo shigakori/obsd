@@ -24,7 +24,7 @@ func main() {
 
 not bad aint it?
 
-``` bash
+```
 'fore
 hi 1
 ---
