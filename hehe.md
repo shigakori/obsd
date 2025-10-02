@@ -1,3 +1,4 @@
+``` go
 package main
 
 import "fmt"
@@ -19,5 +20,7 @@ func main() {
 
 	fmt.Println(`after`)
 }
+```
 
 not bad aint it?
+thats the
