@@ -49,7 +49,7 @@ lol
 after
 ```
 
-game:
+# game
 
 ``` go
 package main
@@ -97,6 +97,4 @@ func main() {
 
 ```
 
-[^1]
 
-[^1]: asdas
