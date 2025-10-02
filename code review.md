@@ -49,7 +49,7 @@ lol
 after
 ```
 
-# game
+game:
 
 ``` go
 package main
